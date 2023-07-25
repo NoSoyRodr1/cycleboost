@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redireccionamiento según dispositivo</title>
-    <link rel="stylesheet" href="estilos.css">
+  <title>Redireccionamiento basado en el ancho de la página</title>
 </head>
 <body>
-    <h1>Selecciona una opción:</h1>
-    <a class="boton" href="mobile.html">Opción para Teléfono</a>
-    <a class="boton" href="desktop.html">Opción para Escritorio</a>
+  <script>
+    // Función para redireccionar a la página adecuada según el ancho
+    function redirectToPage() {
+      // Obtener el ancho de la ventana del navegador
+      const windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      const desktopWidth = 1200;
+      if (windowWidth > desktopWidth) {
+        window.location.href = 'desktop.html';
+      } else {
+        window.location.href = 'mobile.html';
+      }
+    }
+    window.addEventListener('load', redirectToPage);
+  </script>
 </body>
-</html> 
+</html>
