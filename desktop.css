@@ -162,7 +162,7 @@ a {
   
 
 .unmsm {
-  background-image: url(/resources/1200px-UNMSM_escudo_XVI-XXI_transparente_siglas_nombre_vertical.svg.png);
+  background-image: url(./resources/1200px-UNMSM_escudo_XVI-XXI_transparente_siglas_nombre_vertical.svg.png);
   background-size: 500px 720px;
   background-color: rgba(255, 255, 255, 0.397); /* Color de fondo con transparencia */
   background-blend-mode: lighten;
