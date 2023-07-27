@@ -77,6 +77,7 @@ h2 {
     margin-right: 6%;
     color: #7e6c0a;
     display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.678);
 }
 .block .curso {
     display: inline-block;
@@ -90,10 +91,12 @@ h2 {
     font-size: 35px;
     font-weight: bold;
     width: 60%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.678);
 }
 
 .block .curso:hover {
     background-color: #7e6c0a;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.678);
 }
 
 .logounm {
@@ -139,6 +142,7 @@ footer{
     font-size: 40px;
     font-weight: bold;
     width: 40%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.678);
 }
 .encuesta {
     color: white;
@@ -247,6 +251,7 @@ h2 {
     font-size: 18px;
     font-weight: bold;
     width: 60%;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.678);
 }
 .contenido {
     font-size: 20px;
@@ -272,6 +277,7 @@ h2 {
     font-size: 18px;
     font-weight: bold;
     width: 40%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.678);
 }
 .encuesta {
     color: white;
@@ -294,6 +300,7 @@ h2 {
     font-size: 18px;
     font-weight: bold;
     width: 40%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.678);
 }
 footer{
     background-image: url(resources/1920x1080-Fondo-de-pantalla-gris-oscuro-1024x576.jpg);
